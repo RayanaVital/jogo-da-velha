@@ -166,7 +166,7 @@ export class JogoDaVelhaService {
     }
 
     //valida coluna
-    if(tabuleiro [0][coluna] === jogador && tabuleiro [1][coluna] === jogador && tabuleiro [2][coluna] === jogaor){
+    if(tabuleiro [0][coluna] === jogador && tabuleiro [1][coluna] === jogador && tabuleiro [2][coluna] === jogador){
       fim = [[0,coluna], [1,coluna], [2,coluna]];
     }
     //valida as diagonais
